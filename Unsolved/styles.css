@@ -1,0 +1,88 @@
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5e6d9;
+}
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+.logo {
+  font-weight: bold;
+  margin: 0;
+}
+#hero {
+  padding: 48px 16px;
+  text-align: center;
+}
+.headline {
+  font-size: 28px;
+  margin-bottom: 8px;
+  font-weight: lighter;
+  display: inline;
+}
+.sub {
+  color: #555;
+  margin: 1%;
+  margin-bottom: 0;
+}
+#content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+.card {
+  border: 3px solid #060606;
+  padding: 12px;
+  border-radius: 8px;
+}
+.post-title {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: lighter;
+}
+.post-meta {
+  font-size: 12px;
+  color: #666;
+  margin: 0px;
+}
+.panel-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  margin: 0 4px 4px 0;
+  border-radius: 9999px;
+  text-decoration: none;
+}
+#bottombar {
+  border-top: 1px solid #242425;
+  padding: 12px 16px;
+  text-align: center;
+  color: #777;
+}
+
+/* Images */
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 8px 0;
+  display: block;
+}
+
+.copy{
+  margin: 0;
+}
+
