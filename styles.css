@@ -18,9 +18,8 @@ body {
 }
 .headline {
   font-size: 28px;
-  margin-bottom: 8px;
+  margin: 8px;
   font-weight: lighter;
-  display: inline;
 }
 .sub {
   color: #555;
